@@ -6,7 +6,7 @@ import util
 import gettr
 
 # ----=== followbot ===----
-# follows a random user, then recursively follows users who they are following / follows them
+# follows a random user, then recursively follows users who they are following / who follows them
 
 followbot_output = True
 
