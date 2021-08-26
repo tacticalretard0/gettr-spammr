@@ -24,7 +24,7 @@ The account you added will automatically be used as a bot the next time spammr.p
 
 1. Scroll down to the request headers, find `x-app-auth`
 
-1. `x-app-auth` should contain a json string like this `{"user": "username_here", "token": "token_here"}`, copy the value in "token", do not copy the quotation marks
+1. `x-app-auth` should contain a json string like `{"user": "username_here", "token": "token_here"}`, copy the value in "token", do not copy the quotation marks
 
 You should now have the token
 
