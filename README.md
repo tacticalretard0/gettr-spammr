@@ -5,9 +5,11 @@ A bot that spams gettr.com
 It mostly uses my own API but some of it requires [gogettr](https://github.com/stanfordio/gogettr)
 
 ## How to add an account
-1. Put a file in the tokens/ directory, name the `file token_username.txt`, where username is the username of the account you want to add
+1. Put a file in the tokens/ directory, name the file `token_username.txt`, where username is the username of the account you want to add
 
 1. Put the account's token in the file you created
+
+The account you added should now automatically be used as a bot the next time spammr.py is run
 
 ### How to get an account's token
 1. Log in to the account
@@ -24,5 +26,5 @@ It mostly uses my own API but some of it requires [gogettr](https://github.com/s
 
 1. x-app-auth should contain a json string like this `{"user": "username_here", "token": "token_here"}`, copy the value in "token", excluding the quotation marks
 
-1. You should now have the token
+You should now have the token
 
