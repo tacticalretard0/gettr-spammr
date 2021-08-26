@@ -20,11 +20,11 @@ The account you added will automatically be used as a bot the next time spammr.p
 
 1. While it is recording requests, create a post on gettr, the post can contain anything
 
-1. Click on one of the requets named "post", there might be two of them, but the correct one is the one that says "Request Method: POST", the wrong one will say "Request Method: OPTIONS"
+1. Click on one of the requets named "post", there might be two of them, but the correct one is the one that says `Request Method: POST`, the wrong one will say `Request Method: OPTIONS`
 
-1. Scroll down to the request headers, find x-app-auth
+1. Scroll down to the request headers, find `x-app-auth`
 
-1. x-app-auth should contain a json string like this `{"user": "username_here", "token": "token_here"}`, copy the value in "token", excluding the quotation marks
+1. `x-app-auth` should contain a json string like this `{"user": "username_here", "token": "token_here"}`, copy the value in "token", do not copy the quotation marks
 
 You should now have the token
 
